@@ -1,5 +1,9 @@
 # GO WebP
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/ryanbekhen/go-webp)](https://goreportcard.com/report/github.com/ryanbekhen/go-webp)
+[![GoDoc](https://godoc.org/github.com/ryanbekhen/go-webp?status.svg)](https://pkg.go.dev/github.com/ryanbekhen/go-webp)
+[![License](https://img.shields.io/github/license/ryanbekhen/go-webp)](LICENSE)
+
 This is a simple library Go to convert images to WebP format using the [libwebp](https://developers.google.com/speed/webp/docs/api) library.
 
 ## Development Requirements
