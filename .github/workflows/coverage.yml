@@ -20,6 +20,9 @@ jobs:
         with:
           go-version: 1.22
 
+      - name: Install libwebp
+        run: sudo apt-get install libwebp-dev
+
       - name: Generate Test Coverage
         run: go test ./... -coverprofile=./cover.out
 
