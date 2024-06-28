@@ -1,0 +1,9 @@
+profile: cover.out
+local-prefix: "github.com/ryanbekhen/go-webp"
+threshold:
+  file: 60
+  package: 80
+  total: 80
+exclude:
+  paths:
+    - \.pb\.go$    # excludes all protobuf generated files
